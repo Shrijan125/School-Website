@@ -1,0 +1,21 @@
+.button::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #F6F6F6;
+    z-index: -1;
+    position: absolute;
+    right: 100%;
+    transition: right 300ms ease-in-out;
+}
+
+.button{
+    position: relative;
+    overflow: hidden;
+    border: 4px solid #03346E;
+    z-index: 1;
+}
+
+.button:hover::before,.button:focus::before{
+    right: 0%;
+}
