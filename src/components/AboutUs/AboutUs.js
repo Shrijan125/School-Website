@@ -56,7 +56,7 @@ const AboutUs = () => {
         </div>
 
         <div className="w-full sm:h-[500px] xl:h-[700px] h-[300px] relative img-container ">
-          <Image fill src={'/images/img3.jpg'} className="object-cover"></Image>
+          <Image alt={''} fill src={'/images/img3.jpg'} className="object-cover"></Image>
         </div>
         <div className="absolute flex flex-col sm:w-[80%] w-[90%] sm:pr-0 pr-3 gap-4 xl:-bottom-48 sm:-bottom-52  sm:ml-0 ml-8 -bottom-72 sm:right-9 sm:mb-8 mb-12">
           <p className="text-lg sm:text-xl text-primary">

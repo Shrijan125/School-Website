@@ -59,7 +59,7 @@ const Footer = () => {
                     src="/images/fb_logo.webp"
                     width={50}
                     height={50}
-                    key={''}
+                    alt={''}
                     className="object-cover"
               
                   ></Image>
@@ -74,7 +74,7 @@ const Footer = () => {
                     src="/images/twitter_logo.avif"
                     className="object-cover"
                     width={25}
-                    key={''}
+                    alt={''}
                     height={25}
                   ></Image>
                   <span className="sr-only">Twitter page</span>
@@ -89,7 +89,7 @@ const Footer = () => {
                     width={55}
                     height={55}
                     className="object-cover"
-                    key={''}
+                    alt={''}
                   ></Image>
                   <span className="sr-only">Youtube page</span>
                 </a>

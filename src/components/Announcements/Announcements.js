@@ -25,7 +25,7 @@ const Announcements = () => {
       { translateX: '0%', ease: 'power2.out', duration: 0.8 }
     );
     return () => clearInterval(intervalId);
-  }, [index]);
+  }, [index,announcements.length]);
   function handleLeftClick() {
     if (index === 0) setIndex(announcements.length - 1);
     else setIndex(index => index - 1);

@@ -6,6 +6,7 @@ import Overlay from './Overlay';
 const Mansonry = () => {
   const svg = [
     <svg
+    key={'svg1'}
       width="76"
       height="70"
       viewBox="0 0 76 70"
@@ -19,6 +20,7 @@ const Mansonry = () => {
       />
     </svg>,
     <svg
+    key={'svg2'}
       width="62"
       height="66"
       viewBox="0 0 62 66"
@@ -32,6 +34,7 @@ const Mansonry = () => {
       />
     </svg>,
     <svg
+    key={'svg3'}
       width="64"
       height="66"
       viewBox="0 0 64 66"
@@ -45,6 +48,7 @@ const Mansonry = () => {
       />
     </svg>,
     <svg
+    key={'svg4'}
       width="66"
       height="66"
       viewBox="0 0 66 66"
@@ -58,6 +62,7 @@ const Mansonry = () => {
       />
     </svg>,
     <svg
+    key={'svg5'}
       width="66"
       height="68"
       viewBox="0 0 66 68"
@@ -102,7 +107,7 @@ const Mansonry = () => {
               className="object-cover"
               fill
               src={'/images/Arts.jpg'}
-              key={''}
+              alt={''}
             ></Image>
           </div>
           <div className="relative w-full h-1/3 ">
@@ -111,7 +116,7 @@ const Mansonry = () => {
               className="object-cover"
               fill
               src={'/images/teachers.jpg'}
-              key={''}
+              alt={''}
             ></Image>
           </div>
           <div className="relative w-full h-1/3 ">
@@ -124,7 +129,7 @@ const Mansonry = () => {
               className="object-cover"
               fill
               src={'/images/Experiments.jpg'}
-              key={''}
+              alt={''}
             ></Image>
           </div>
         </div>
@@ -135,7 +140,7 @@ const Mansonry = () => {
               className="object-cover"
               fill
               src={'/images/Library.jpg'}
-              key={''}
+              alt={''}
             ></Image>
           </div>
           <div className="relative h-1/2 sm:h-[40%]  w-full">
@@ -144,7 +149,7 @@ const Mansonry = () => {
               className="object-cover"
               fill
               src={'/images/Computers.jpg'}
-              key={''}
+              alt={''}
             ></Image>
 
           </div>

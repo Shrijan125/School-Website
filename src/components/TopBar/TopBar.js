@@ -8,7 +8,7 @@ const TopBar = () => {
     <>
       <nav className="sticky flex items-center justify-between px-2 py-3 sm:px-10">
         <Menu className="sm:size-9 size-7" color="#03346E"></Menu>
-        <Image src={'/images/logo.png'} height={130} width={130} key={''}></Image>
+        <Image src={'/images/logo.png'} height={130} width={130} alt={''}></Image>
         <BlueButton text={'Contact Us!'}></BlueButton>
       </nav>
       <hr className="border-[0.5px] border-gray-300" />

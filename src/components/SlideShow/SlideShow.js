@@ -62,19 +62,19 @@ const SlideShow = () => {
         className="swiper_container"
       >
         <SwiperSlide>
-          <Image src={images[0]} fill className="object-cover" key={''}></Image>
+          <Image src={images[0]} fill className="object-cover" alt={''}></Image>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={images[1]} fill className="object-cover" key={''}></Image>
+          <Image src={images[1]} fill className="object-cover" alt={''}></Image>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={images[2]} fill className="object-cover" key={''}></Image>
+          <Image src={images[2]} fill className="object-cover" alt={''}></Image>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={images[3]} fill className="object-cover" key={''}></Image>
+          <Image src={images[3]} fill className="object-cover" alt={''}></Image>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={images[4]} fill className="object-cover" key={''}></Image>
+          <Image src={images[4]} fill className="object-cover" alt={''}></Image>
         </SwiperSlide>
       </Swiper>
 
