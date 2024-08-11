@@ -55,7 +55,7 @@ const Messages = ({
           className="w-full sm:w-[50%] sm:h-[400px]  xl:h-[500px] h-[300px] relative person-img"
           style={{ '--person-img-color': imgColor }}
         >
-          <Image fill src={image} className="object-cover"></Image>
+          <Image fill src={image} className="object-cover" key={''}></Image>
         </div>
       </div>
     </div>

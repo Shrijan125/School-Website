@@ -102,6 +102,7 @@ const Mansonry = () => {
               className="object-cover"
               fill
               src={'/images/Arts.jpg'}
+              key={''}
             ></Image>
           </div>
           <div className="relative w-full h-1/3 ">
@@ -110,6 +111,7 @@ const Mansonry = () => {
               className="object-cover"
               fill
               src={'/images/teachers.jpg'}
+              key={''}
             ></Image>
           </div>
           <div className="relative w-full h-1/3 ">
@@ -122,6 +124,7 @@ const Mansonry = () => {
               className="object-cover"
               fill
               src={'/images/Experiments.jpg'}
+              key={''}
             ></Image>
           </div>
         </div>
@@ -132,6 +135,7 @@ const Mansonry = () => {
               className="object-cover"
               fill
               src={'/images/Library.jpg'}
+              key={''}
             ></Image>
           </div>
           <div className="relative h-1/2 sm:h-[40%]  w-full">
@@ -140,7 +144,9 @@ const Mansonry = () => {
               className="object-cover"
               fill
               src={'/images/Computers.jpg'}
+              key={''}
             ></Image>
+
           </div>
         </div>
       </div>
